@@ -28,4 +28,4 @@ class Book
   end 
 end
 
-title.new("And Then There Were None")
+Book.new("And Then There Were None")
