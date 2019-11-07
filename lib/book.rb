@@ -1,31 +1,40 @@
 class Book
   def initialize(title)
-    @title = "title"
-  end 
+    @title = title
+  end
+ 
   def title
     @title
-  end 
+  end
+ 
   def author=(author)
     @author = author
-  end 
+  end
+ 
   def author
     @author
-  end 
+  end
+ 
   def page_count=(num)
     @page_count = num
-  end 
+  end
+ 
   def page_count
     @page_count
-  end 
+  end
+ 
   def genre=(genre)
     @genre = genre
-  end 
+  end
+ 
   def genre
     @genre
-  end 
+  end
+ 
   def turn_page
     puts "Flipping the page...wow, you read fast!"
-  end 
+  end
+ 
 end
 
 Book.title("And Then There Were None")
